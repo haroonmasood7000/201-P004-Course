@@ -4,4 +4,8 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "google-generativeai>=0.8.5",
+    "openai-agents>=0.3.1",
+    "python-dotenv>=1.1.1",
+]
